@@ -1,0 +1,12 @@
+VnsTodoBundle_homepage:
+    pattern:  /todolist
+    defaults: { _controller: VnsTodoBundle:Todo:index }
+VnsTodoBundle_list:
+    pattern:  /todolist/list
+    defaults: { _controller: VnsTodoBundle:Todo:list }
+VnsTodoBundle_save:
+    pattern:  /todolist/save/{id}
+    defaults: { _controller: VnsTodoBundle:Todo:save,id : 0}
+VnsTodoBundle_delete:
+    pattern:  /todolist/delete
+    defaults: { _controller: VnsTodoBundle:Todo:delete }

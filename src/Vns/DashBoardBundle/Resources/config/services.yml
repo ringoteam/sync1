@@ -1,0 +1,7 @@
+parameters:
+#    vns_dash_board.example.class: Vns\DashBoardBundle\Example
+
+services:
+#    vns_dash_board.example:
+#        class: %vns_dash_board.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
