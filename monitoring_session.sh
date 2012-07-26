@@ -1,5 +1,5 @@
 #!/bin/bash
-while :
+while :  node
 do
 	  today=$(date)
  	  echo "run"
